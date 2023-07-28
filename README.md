@@ -12,15 +12,22 @@ Collect textbooks, blogs, papers, tools about the application of AI model on Rev
 ## LLM
 ### LLM on Codes
 [PanGu-Coder2](https://paperswithcode.com/paper/pangu-coder2-boosting-large-language-models)
-[ELMo](https://arxiv.org/pdf/1802.05365.pdf)
-[BERT](https://arxiv.org/pdf/1810.04805.pdf)
-[T5](https://arxiv.org/pdf/1910.10683.pdf)
-GPT Family
-[LaMDA](https://blog.google/technology/ai/lamda/)
-[PaLM](https://arxiv.org/pdf/2204.02311.pdf)
-[LLaMA](https://ai.facebook.com/blog/large-language-model-llama-meta-ai/)
-[PolyCoder](https://arxiv.org/pdf/2202.13169.pdf)
 
+[ELMo](https://arxiv.org/pdf/1802.05365.pdf)
+
+[BERT](https://arxiv.org/pdf/1810.04805.pdf)
+
+[T5](https://arxiv.org/pdf/1910.10683.pdf)
+
+GPT Family
+
+[LaMDA](https://blog.google/technology/ai/lamda/)
+
+[PaLM](https://arxiv.org/pdf/2204.02311.pdf)
+
+[LLaMA](https://ai.facebook.com/blog/large-language-model-llama-meta-ai/)
+
+[PolyCoder](https://arxiv.org/pdf/2202.13169.pdf)
 
 ### OpenAI blog
 GPT playground
@@ -33,14 +40,19 @@ GPT playground
 
 ### Papers on RE + LLM
 [Pop Quiz! Can a Large Language Model Help With Reverse Engineering?](https://arxiv.org/pdf/2202.01142), arxiv, 2022
+
 [Jailbreaker: Automated Jailbreak Across Multiple Large Language Model Chatbots](https://arxiv.org/pdf/2307.08715) arxiv, 2023
+
 [LmPa: Improving Decompilation by Synergy of Large Language Model and Program Analysis](https://arxiv.org/pdf/2306.02546), arxiv, 2023
 
 ## Papers
 ### Pop Quiz! Can a Large Language Model Help With Reverse Engineering?](https://arxiv.org/pdf/2202.01142
 Abstract: Large language models (such as OpenAI’s Codex) have demonstrated impressive zero-shot multi-task capabilities in the software domain, including code explanation. In this work, we examine if this ability can be used to help with reverse engineering. Specifically, we investigate prompting Codex to identify the purpose, capabilities, and important variable names or values from code, even when the code is produced through decompilation. Alongside an examination of the model’s responses in answering open-ended questions, we devise a true/false quiz framework to characterize the performance of the language model. We present an extensive quantitative analysis of the measured performance of the language model on a set of program purpose identification and information extraction tasks: of the 136,260 questions we posed, it answered 72,754 correctly. A key takeaway is that while promising, LLMs are not yet ready for zero-shot reverse engineering.
+
 Task:
+
 Method:
+
 Result:
 
 ### Jailbreaker: Automated Jailbreak Across Multiple Large Language Model Chatbots
@@ -49,8 +61,11 @@ Our paper presents JAILBREAKER, a comprehensive framework that offers insight in
 Our second offering is an innovative method for the automatic generation of jailbreak prompts that target robustly defended LLM chatbots. The crux of this approach involves leveraging an LLM to auto-learn successful patterns. By fine-tuning an LLM with jailbreak prompts, we validate the potential of automated jailbreak creation for several high-profile commercial LLM chatbots. Our method generates attack prompts achieving an average success rate of 21.58%, considerably surpassing the 7.33% success rate accomplished by existing prompts. We have conscientiously reported our findings to the impacted service providers. JAILBREAKER establishes a groundbreaking approach to unveil vulnerabilities in LLMs, underscoring the need for more formidable defenses against such intrusions.
 
 Task: use LLM to assist  jailbreak attacks and defense mechanisms
+
 Method:
+
 Result:
+
 Finetune: Yes
 
 ### LmPa: Improving Decompilation by Synergy of Large Language Model and Program Analysis
@@ -65,4 +80,3 @@ Method: Prompt Engineering + iterative query and propagation
 2. Both human-curated and GPT-based name validation and propagation
 
 Result:
-1. A detailed user study
