@@ -1,5 +1,5 @@
 # Awesome-AI-RE
-Collect textbooks, blogs, papers, tools about the application of AI model on Reverse Engineering, especially Large Langage Model(LLM) + Reverse Engineering(RE). 
+Collect textbooks, blogs, papers, tools about the application of AI model on Reverse Engineering, especially Reverse Engineering with Large Language Models (RE + LLM).
 
 ## Reverse Engineering
 ### Textbook
